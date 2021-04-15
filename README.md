@@ -1,1 +1,1 @@
-# Python_Projects
+Projects Created at the Tech Academy with Python
