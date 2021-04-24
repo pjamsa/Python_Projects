@@ -49,12 +49,13 @@ class ParentWindow(Frame):
         self.btn_submit = tk.Button(self.master,width=12,height=2,text='Submit',command=lambda: Students_Func.addToList(self))
         self.btn_submit.grid(row=10,column=0,padx=(25,0),pady=(45,10),sticky=W)
         self.btn_delete = tk.Button(self.master,width=12,height=2,text='Delete',command=lambda: Students_Func.onDelete(self))
-        self.btn_delete.grid(row=10,column=2,padx=(15,0),pady=(45,10),sticky=W)
+        self.btn_delete.grid(row=10,column=1,padx=(15,0),pady=(45,10),sticky=W)
                 
-
+        Students_Func.create_db(self)
+       
         
         
-
+        
 
 
 
