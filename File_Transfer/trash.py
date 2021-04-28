@@ -41,6 +41,7 @@ def pickFolder2(self):
     self.txt_2.insert(END, path2)
 
 
+# def checkFiles(self):
 
 """ Previous script written for previous step
 
