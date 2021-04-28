@@ -41,10 +41,13 @@ def pickFolder2(self):
     self.txt_2.insert(END, path2)
 
 
-"""
+
+""" Previous script written for previous step
+
+
     SECONDS_IN_DAY = 24 * 60 * 60
-    source = path1
-    destination = path2
+    source =  <insert path1> modified to coincide with current code
+    destination =  <insert path2> modified to coincide with current code
     now = time.time()
     before = now - SECONDS_IN_DAY
 
@@ -56,8 +59,8 @@ for files in os.listdir(source):
     if last_mod_time(source_files) > before:
         destination_files = os.path.join(destination, files)
         shutil.move(source_files, destination_files)
-"""    
     
+"""   
 
 
 
