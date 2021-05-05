@@ -1,8 +1,8 @@
-<h1>Python Projects<h1>
+<h1>Python Projects</h1>
 
 These are some basic projects I have created with Python.  Some of these projects use modules such as tkinter and sqlite3.
 
-Projects:
+<h2>Projects:</h2>
 <ul>
   <li>Check Files Gui</li>
   <li>Student Tracker</li>
@@ -10,7 +10,7 @@ Projects:
   <li>Django Checkbook</li>
 </ul>
 
-<h2>Check Files Gui</li>
+<h2>Check Files Gui</h2>
 In this project I created an gui app that allows the user to choose two folders to transfer files between if the files have been modified in the last 24 hours.  
 
 <h2>Student Tracker</h2>
